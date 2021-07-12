@@ -74,31 +74,37 @@ img {
 
 /* ------------- mobile - responsive ------------- */
 @media screen and (max-width: 420px) {
-  /*---------------------- RESET ----------------------*/
+
+  /* RESET */
   *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
   }
 
+  /* COMMON */
   body {
     font-family: Arial;
     color: cornsilk;
   }
   .row>h1 {
-    padding: 20px 0px;
-    color: rgb(50, 66, 117);
+    padding: 30px 0px;
+    color: rgb(32, 46, 90);
+  }
+  .row h3 {
+    color: rgb(32, 46, 90);
   }
   img {
     height: 100px;
+    margin-bottom: 10px;
   }
   .row {
     width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
+    /* margin-left: 0px;
+    margin-right: 0px; */
     margin-top: 0px;
     padding: 10px 10px ;
-    background-color: cadetblue;
+    background-color: rgb(99, 163, 167);
   }
 
 /* BLOCCO LEZIONI */
