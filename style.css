@@ -93,6 +93,7 @@ img {
   }
   .row h3 {
     color: rgb(32, 46, 90);
+    padding: 10px 0px;
   }
   img {
     height: 100px;
@@ -100,27 +101,35 @@ img {
   }
   .row {
     width: 100%;
-    /* margin-left: 0px;
-    margin-right: 0px; */
     margin-top: 0px;
-    padding: 10px 10px ;
-    background-color: rgb(99, 163, 167);
+    padding: 10px 20px ;
+    background-color: rgb(83 185 192);
   }
 
 /* BLOCCO LEZIONI */
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
-    float: left;
     margin-bottom: 50px;
   }
   
 /* BLOCCO STEPS */
+  #steps .row {
+    background-color: rgb(251 131 63);  
+  }
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: left;
     width: 100%;
+    margin-bottom: 50px;
+  }
+
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 0px;
     margin-bottom: 50px;
   }
 }
