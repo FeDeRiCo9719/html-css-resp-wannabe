@@ -73,21 +73,21 @@ img {
 }
 
 /* ------------- TABLET - responsive ------------- */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   /* RESET */
   *{
    margin: 0%;
    padding: 0%;
    box-sizing: border-box;
- }
+  }
 
  /* COMMON */
- body {
+  body {
    font-size: 25px;
    font-family: Arial;
    color: cornsilk;
- }
- .row>h1 {
+  }
+  .row>h1 {
    font-size: 50px;
   padding: 50px 0px;
   color: rgb(32, 46, 90);
